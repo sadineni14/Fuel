@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fuel Express - Fuel Delivery Service</title>
+    <link rel="stylesheet" href="sl1.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="fuel.png" alt="Fuel Express Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Order</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Fuel Express</h1>
+        <h2>Your Reliable Fuel Delivery Service</h2>
+        <a href="#order" class="cta-button">Order Now</a>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="service">
+            <h3>Premium Gasoline</h3>
+            <p>We deliver the highest quality gasoline to your doorstep.</p>
+        </div>
+        <div class="service">
+            <h3>Diesel Delivery</h3>
+            <p>Reliable diesel delivery for your vehicle or business.</p>
+        </div>
+        <div class="service">
+            <h3>Fast & Convenient</h3>
+            <p>Order fuel anytime, anywhere, and we’ll be there!</p>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section class="order-form" id="order">
+        <h3>Place Your Order</h3>
+        <form id="fuel-order-form">
+            <label for="fuel-type">Fuel Type:</label>
+            <select id="fuel-type" name="fuel-type">
+                <option value="">Select Fuel</option>
+                <option value="gasoline">Gasoline</option>
+                <option value="diesel">Diesel</option>
+            </select>
+
+            <label for="quantity">Quantity (liters):</label>
+            <input type="number" id="quantity" name="quantity" required>
+
+            <label for="address">Delivery Address:</label>
+            <textarea id="address" name="address" required></textarea>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form">
+        <h3>Contact Us</h3>
+        <form id="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script1.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
